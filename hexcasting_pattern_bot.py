@@ -2,7 +2,7 @@ import disnake
 from disnake.ext import commands
 
 
-client = commands.Bot(command_prefix="b|", test_guilds=[951923779859271711], intents=disnake.Intents.default())
+client = commands.Bot(command_prefix="b|", test_guilds=[951923779859271711, 936370934292549712], intents=disnake.Intents.default())
 client.pattern_index = []
 client.gif_list = []
 
@@ -27,7 +27,11 @@ async def pattern(ctx, pattern : str):
     if pattern in client.pattern_index:
         for i in range(len(client.pattern_index)):
             if pattern == client.pattern_index[i]:
-                await ctx.send(content=f'{client.gif_list[i]}')
+                #await ctx.send(content=f'{client.gif_list[i]}')
+                #await ctx.channel.send(content=f'{pattern}')
+                assemble = disnake.Embed(color = disnake.Colour.purple(), title=f'{pattern}')
+                assemble.set_image(url=client.gif_list[i])
+                await ctx.send(embed=assemble)
     else:
         if pattern:
             await ctx.send(content=f'No pattern called {pattern}.', delete_after=5.0)
