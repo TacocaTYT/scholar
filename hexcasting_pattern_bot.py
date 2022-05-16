@@ -55,4 +55,4 @@ async def guide(ctx, topic : str):
     assemble = disnake.Embed(color = disnake.Colour.purple(), title=f'Online Hexcasting Guide: {topic}', url=f'https://bl.ocks.org/Alwinfy/raw/455d2d4af12bd893b46170056ca1714f/#patterns/{topic.lower().replace(" ", "_")}')
     await ctx.send(embed=assemble)
 
-client.run('OTcxODMwNDIxNDU1MjY5OTE4.YnQNnA.o4lVGboEc-YBrARj8UDmjH0jzg4')
+client.run()
