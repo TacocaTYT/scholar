@@ -27,10 +27,10 @@ async def on_ready():
     description='Sends a gif of the pattern you enter, as found in the book.'
 )
 async def pattern(ctx, pattern : str):
-    if pattern in client.pattern_index:
+    if pattern.casefold().replace("'", "").replace(":", "") in (pat.casefold().replace("'", "").replace(":", "") for pat in client.pattern_index):
         for i in range(len(client.pattern_index)):
-            if pattern == client.pattern_index[i]:
-                assemble = disnake.Embed(color = disnake.Colour.purple(), title=client.pattern_index[i], url=client.web_link[i])
+            if pattern.casefold().replace("'", "").replace(":", "") == client.pattern_index[i].casefold().replace("'", "").replace(":", ""):
+                assemble = disnake.Embed(color = disnake.Colour.purple(), title=client.pattern_index[i], url=f"https://bl.ocks.org/Alwinfy/raw/455d2d4af12bd893b46170056ca1714f/#{client.web_link[i]}")
                 assemble.set_image(url=client.gif_list[i])
                 await ctx.send(embed=assemble)
     else:
@@ -45,6 +45,14 @@ async def pattern(ctx, pattern : str):
 )
 async def guide(ctx):
     assemble = disnake.Embed(color = disnake.Colour.purple(), title='Online Hexcasting Guide', url='https://bl.ocks.org/Alwinfy/raw/455d2d4af12bd893b46170056ca1714f/')
+    await ctx.send(embed=assemble)
+
+@client.slash_command(
+    name='topic',
+    description='Sends a link to the online guidebook section for the given topic.'
+)
+async def guide(ctx, topic : str):
+    assemble = disnake.Embed(color = disnake.Colour.purple(), title=f'Online Hexcasting Guide: {topic}', url=f'https://bl.ocks.org/Alwinfy/raw/455d2d4af12bd893b46170056ca1714f/#patterns/{topic.lower().replace(" ", "_")}')
     await ctx.send(embed=assemble)
 
 client.run('OTcxODMwNDIxNDU1MjY5OTE4.YnQNnA.o4lVGboEc-YBrARj8UDmjH0jzg4')
