@@ -8,16 +8,11 @@ client.gif_list = []
 client.web_link = []
 
 with open('patterns.txt', 'r') as file:
-    pattern_catalogue = file.read()
-    dummy = pattern_catalogue.replace('\n', '|').split('|')
-    for i in range(len(dummy)):
-        match i%3:
-            case 2:
-                client.web_link.append(dummy[i])
-            case 1:
-                client.gif_list.append(dummy[i])
-            case _:
-                client.pattern_index.append(dummy[i])
+    for line in file:
+        A, B, C = line.split('|')
+        client.web_link.append(A)
+        client.gif_list.append(B)
+        client.pattern_index.append(C.strip())
 
 @client.event
 async def on_ready():
