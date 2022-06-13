@@ -1,81 +1,151 @@
-Mind's Reflection||https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:get_caster
-Compass' Purification||https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:get_entity_pos
-Alidade's Purification||https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:get_entity_look
-Stadiometer's Purification||https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:get_entity_height
-Pace Purification||https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:get_entity_velocity
-Reveal||https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:print
-Archer's Distillation||https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:raycast
-Architect's Distillation||https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:raycast/axis
-Scout's Distillation||https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:raycast/entity
-Numerical Reflection||https://gamma-delta.github.io/HexMod/#patterns/numbers@Numbers
-Additive Distillation||https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:add
-Subtractive Distillation||https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:sub
-Multiplicative Distillation||https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:mul_dot
-Division Distillation||https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:div_cross
-Length Purification||https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:abs_len
-Power Distillation||https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:pow_proj
-Floor Purification||https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:floor
-Ceiling Purification||https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:ceil
-Vector Exaltation||https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:construct_vec
-Vector Disintegration||https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:deconstruct_vec
-Axial Purification||https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:coerce_axial
-Entropy Reflection||https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:random
-Jester's Gambit||https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:swap
-Fisherman's Gambit||https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:fisherman
-Flock's Reflection||https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:stack_len
-Flock's Gambit||https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:last_n_list
-Flock's Disintegration||https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:splat
-Gemini Decomposition||https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:duplicate
-Gemini's Gambit||https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:duplicate_n
-Bookkeeper's Gambits||https://gamma-delta.github.io/HexMod/#patterns/stackmanip@Numbers
-Swindler's Gambit||https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:swizzle
-Maximus Distillation||https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:greater
-Minimus Distillation||https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:less
-Maximus Distillation II||https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:greater_eq
-Minimus Distillation II||https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:less_eq
-Equality Distillation||https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:equals
-Inequality Distillation||https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:not_equals
-Negation Purification||https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:not
-Identity Purification||https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:identity
-Disjunction Distillation||https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:or
-Conjunction Distillation||https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:and
-Exclusion Distillation||https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:xor
-Entity Purification||https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:get_entity
-Entity Purification Animal||https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:get_entity/animal
-Entity Purification Monster||https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:get_entity/monster
-Entity Purification Item||https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:get_entity/item
-Entity Purification Player||https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:get_entity/player
-Entity Purification Living||https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:get_entity/living
-Selection Distillation||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:index
-Selection Exaltation||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:slice
-Integration Distillation||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:append
-Combination Distillation||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:concat
-Vacant Reflection||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:empty_list
-Single's Purification||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:singleton
-Abacus Purification||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:list_size
-Retrograde Purification||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:reverse_list
-Locator's Distillation||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:index_of
-Excisor's Distillation||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:list_remove
-Surgeon's Exaltation||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:modify_in_place
-Speaker's Distillation||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:construct
-Speaker's Decomposition||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:deconstruct
-Consideration||https://gamma-delta.github.io/HexMod/#patterns/patterns_as_iotas@hexcasting:escape
-Introspection||https://gamma-delta.github.io/HexMod/#patterns/patterns_as_iotas@hexcasting:open_paren
-Retrospection||https://gamma-delta.github.io/HexMod/#patterns/patterns_as_iotas@hexcasting:close_paren
-Scribe's Reflection||https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:read
-Auditor's Reflection||https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:readable
-Scribe's Purification||https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:read/entity
-Auditor's Purification||https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:readable/entity
-Scribe's Gambit||https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:write
-Auditor's Purification II||https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:writable
-Huginn's Gambit||https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:write/local
-Muninn's Reflection||https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:read/local
-Sine Purification||https://gamma-delta.github.io/HexMod/#patterns/advanced_math@hexcasting:sin
-Cosine Purification||https://gamma-delta.github.io/HexMod/#patterns/advanced_math@hexcasting:cos
-Tangent Purification||https://gamma-delta.github.io/HexMod/#patterns/advanced_math@hexcasting:tan
-Inverse Sine Purification||https://gamma-delta.github.io/HexMod/#patterns/advanced_math@hexcasting:arcsin
-Inverse Cosine Purification||https://gamma-delta.github.io/HexMod/#patterns/advanced_math@hexcasting:arccos
-Inverse Tangent Purification||https://gamma-delta.github.io/HexMod/#patterns/advanced_math@hexcasting:arctan
-Logarithmic Distillation||https://gamma-delta.github.io/HexMod/#patterns/advanced_math@hexcasting:logarithm
-
-test pattern|https://media1.tenor.com/images/789d8bc4e8c417e4ef4113d134fd3bc1/tenor.gif?itemid=25636082|https://www.youtube.com/watch?v=dQw4w9WgXcQ
+Entity Purification||patterns/entities@hexcasting:get_entity
+Entity Purification: Animal||patterns/entities@hexcasting:get_entity/animal
+Entity Purification: Monster||patterns/entities@hexcasting:get_entity/monster
+Entity Purification: Item||patterns/entities@hexcasting:get_entity/item
+Entity Purification: Player||patterns/entities@hexcasting:get_entity/player
+Entity Purification: Living||patterns/entities@hexcasting:get_entity/living
+Zone Distillation: Animal||patterns/entities@hexcasting:zone_entity/animal
+Zone Distillation: Non-Animal||patterns/entities@hexcasting:zone_entity/not_animal
+Zone Distillation: Monster||patterns/entities@hexcasting:zone_entity/monster
+Zone Distillation: Non-Monster||patterns/entities@hexcasting:zone_entity/not_monster
+Zone Distillation: Item||patterns/entities@hexcasting:zone_entity/item
+Zone Distillation: Non-Item||patterns/entities@hexcasting:zone_entity/not_item
+Zone Distillation: Player||patterns/entities@hexcasting:zone_entity/player
+Zone Distillation: Non-Player||patterns/entities@hexcasting:zone_entity/not_player
+Zone Distillation: Living||patterns/entities@hexcasting:zone_entity/living
+Zone Distillation: Non-Living||patterns/entities@hexcasting:zone_entity/not_living
+Zone Distillation: Any||patterns/entities@hexcasting:zone_entity
+Additive Distillation||patterns/math@hexcasting:add
+Subtractive Distillation||patterns/math@hexcasting:sub
+Multiplicative Distillation||patterns/math@hexcasting:mul_dot
+Division Distillation||patterns/math@hexcasting:div_cross
+Length Purification||patterns/math@hexcasting:abs_len
+Power Distillation||patterns/math@hexcasting:pow_proj
+Floor Purification||patterns/math@hexcasting:floor
+Ceiling Purification||patterns/math@hexcasting:ceil
+Vector Exaltation||patterns/math@hexcasting:construct_vec
+Vector Disintegration||patterns/math@hexcasting:deconstruct_vec
+Axial Purification||patterns/math@hexcasting:coerce_axial
+Entropy Reflection||patterns/math@hexcasting:random
+Sine Purification||patterns/advanced_math@hexcasting:sin
+Cosine Purification||patterns/advanced_math@hexcasting:cos
+Tangent Purification||patterns/advanced_math@hexcasting:tan
+Inverse Sine Purification||patterns/advanced_math@hexcasting:arcsin
+Inverse Cosine Purification||patterns/advanced_math@hexcasting:arccos
+Inverse Tangent Purification||patterns/advanced_math@hexcasting:arctan
+Logarithmic Distillation||patterns/advanced_math@hexcasting:logarithm
+Vector Reflection Zero||patterns/consts@hexcasting:const/vec/0
+Circle's Reflection||patterns/consts@hexcasting:const/double/tau
+Arc's Reflection||patterns/consts@hexcasting:const/double/pi
+Euler's Reflection||patterns/consts@hexcasting:const/double/e
+Nullary Reflection||patterns/consts@hexcasting:const/null
+Unifying Distillation||patterns/sets@hexcasting:or_bit
+Intersection Distillation||patterns/sets@hexcasting:and_bit
+Exclusionary Distillation||patterns/sets@hexcasting:xor_bit
+Inversion Purification||patterns/sets@hexcasting:not_bit
+Uniqueness Purification||patterns/sets@hexcasting:to_set
+Maximus Distillation||patterns/logic@hexcasting:greater
+Minimus Distillation||patterns/logic@hexcasting:less
+Maximus Distillation II||patterns/logic@hexcasting:greater_eq
+Minimus Distillation II||patterns/logic@hexcasting:less_eq
+Equality Distillation||patterns/logic@hexcasting:equals
+Inequality Distillation||patterns/logic@hexcasting:not_equals
+Negation Purification||patterns/logic@hexcasting:not
+Identity Purification||patterns/logic@hexcasting:identity
+Disjunction Distillation||patterns/logic@hexcasting:or
+Conjunction Distillation||patterns/logic@hexcasting:and
+Exclusion Distillation||patterns/logic@hexcasting:xor
+Hermes' Gambit||patterns/meta@hexcasting:eval
+Thoth's Gambit||patterns/meta@hexcasting:for_each
+Jester's Gambit||patterns/stackmanip@hexcasting:swap
+Fisherman's Gambit||patterns/stackmanip@hexcasting:fisherman
+Flock's Reflection||patterns/stackmanip@hexcasting:stack_len
+Flock's Gambit||patterns/stackmanip@hexcasting:last_n_list
+Flock's Disintegration||patterns/stackmanip@hexcasting:splat
+Gemini Decomposition||patterns/stackmanip@hexcasting:duplicate
+Gemini's Gambit||patterns/stackmanip@hexcasting:duplicate_n
+Swindler's Gambit||patterns/stackmanip@hexcasting:swizzle
+Scribe's Reflection||patterns/readwrite@hexcasting:read
+Auditor's Reflection||patterns/readwrite@hexcasting:readable
+Scribe's Purification||patterns/readwrite@hexcasting:read/entity
+Auditor's Purification||patterns/readwrite@hexcasting:readable/entity
+Scribe's Gambit||patterns/readwrite@hexcasting:write
+Auditor's Purification II||patterns/readwrite@hexcasting:writable
+Huginn's Gambit||patterns/readwrite@hexcasting:write/local
+Muninn's Reflection||patterns/readwrite@hexcasting:read/local
+Akasha's Distillation||patterns/akashic_patterns@hexcasting:akashic/read
+Akasha's Gambit||patterns/akashic_patterns@hexcasting:akashic/write
+Mind's Reflection||patterns/basics@hexcasting:get_caster
+Compass' Purification||patterns/basics@hexcasting:get_entity_pos
+Alidade's Purification||patterns/basics@hexcasting:get_entity_look
+Stadiometer's Purification||patterns/basics@hexcasting:get_entity_height
+Pace Purification||patterns/basics@hexcasting:get_entity_velocity
+Reveal||patterns/basics@hexcasting:print
+Archer's Distillation||patterns/basics@hexcasting:raycast
+Architect's Distillation||patterns/basics@hexcasting:raycast/axis
+Scout's Distillation||patterns/basics@hexcasting:raycast/entity
+Waystone Reflection||patterns/circle@hexcasting:circle/impetus_pos
+Lodestone Reflection||patterns/circle@hexcasting:circle/impetus_dir
+Lesser Fold Reflection||patterns/circle@hexcasting:circle/bounds/min
+Greater Fold Reflection||patterns/circle@hexcasting:circle/bounds/max
+Consideration||patterns/patterns_as_iotas@hexcasting:escape
+Introspection||patterns/patterns_as_iotas@hexcasting:open_paren
+Retrospection||patterns/patterns_as_iotas@hexcasting:close_paren
+Selection Distillation||patterns/lists@hexcasting:index
+Selection Exaltation||patterns/lists@hexcasting:slice
+Integration Distillation||patterns/lists@hexcasting:append
+Combination Distillation||patterns/lists@hexcasting:concat
+Vacant Reflection||patterns/lists@hexcasting:empty_list
+Single's Purification||patterns/lists@hexcasting:singleton
+Abacus Purification||patterns/lists@hexcasting:list_size
+Retrograde Purification||patterns/lists@hexcasting:reverse_list
+Locator's Distillation||patterns/lists@hexcasting:index_of
+Excisor's Distillation||patterns/lists@hexcasting:list_remove
+Surgeon's Exaltation||patterns/lists@hexcasting:modify_in_place
+Speaker's Distillation||patterns/lists@hexcasting:construct
+Speaker's Decomposition||patterns/lists@hexcasting:deconstruct
+Craft Phial||patterns/great_spells/make_battery@hexcasting:craft/battery
+Flay Mind||patterns/great_spells/brainsweep@hexcasting:brainsweep
+Greater Teleport||patterns/great_spells/teleport@hexcasting:teleport
+Flight||patterns/great_spells/flight@hexcasting:flight
+White Sun's Zenith||patterns/great_spells/zeniths@hexcasting:potion/regeneration
+Blue Sun's Zenith||patterns/great_spells/zeniths@hexcasting:potion/night_vision
+Black Sun's Zenith||patterns/great_spells/zeniths@hexcasting:potion/absorption
+Red Sun's Zenith||patterns/great_spells/zeniths@hexcasting:potion/haste
+Green Sun's Zenith||patterns/great_spells/zeniths@hexcasting:potion/strength
+Summon Greater Sentinel||patterns/great_spells/greater_sentinel@hexcasting:sentinel/create/great
+Summon Lightning||patterns/great_spells/weather_manip@hexcasting:lightning
+Summon Rain||patterns/great_spells/weather_manip@hexcasting:summon_rain
+Dispel Rain||patterns/great_spells/weather_manip@hexcasting:dispel_rain
+Create Lava||patterns/great_spells/create_lava@hexcasting:create_lava
+Internalize Pigment||patterns/spells/colorize@hexcasting:colorize
+Summon Sentinel||patterns/spells/sentinels@hexcasting:sentinel/create
+Banish Sentinel||patterns/spells/sentinels@hexcasting:sentinel/destroy
+Locate Sentinel||patterns/spells/sentinels@hexcasting:sentinel/get_pos
+Wayfind Sentinel||patterns/spells/sentinels@hexcasting:sentinel/wayfind
+Place Block||patterns/spells/blockworks@hexcasting:place_block
+Break Block||patterns/spells/blockworks@hexcasting:break_block
+Create Water||patterns/spells/blockworks@hexcasting:create_water
+Destroy Water||patterns/spells/blockworks@hexcasting:destroy_water
+Conjure Block||patterns/spells/blockworks@hexcasting:conjure_block
+Conjure Light||patterns/spells/blockworks@hexcasting:conjure_light
+Overgrow||patterns/spells/blockworks@hexcasting:bonemeal
+Edify Sapling||patterns/spells/blockworks@hexcasting:edify
+Ignite Block||patterns/spells/blockworks@hexcasting:ignite
+Extinguish Area||patterns/spells/blockworks@hexcasting:extinguish
+White Sun's Nadir||patterns/spells/nadirs@hexcasting:potion/weakness
+Blue Sun's Nadir||patterns/spells/nadirs@hexcasting:potion/levitation
+Black Sun's Nadir||patterns/spells/nadirs@hexcasting:potion/wither
+Red Sun's Nadir||patterns/spells/nadirs@hexcasting:potion/poison
+Green Sun's Nadir||patterns/spells/nadirs@hexcasting:potion/slowness
+Craft Cypher||patterns/spells/hexcasting@hexcasting:craft/cypher
+Craft Trinket||patterns/spells/hexcasting@hexcasting:craft/trinket
+Craft Artifact||patterns/spells/hexcasting@hexcasting:craft/artifact
+Recharge Item||patterns/spells/hexcasting@hexcasting:recharge
+Erase Item||patterns/spells/hexcasting@hexcasting:erase
+Explosion||patterns/spells/basic@hexcasting:explode
+Fireball||patterns/spells/basic@hexcasting:explode/fire
+Impulse||patterns/spells/basic@hexcasting:add_motion
+Blink||patterns/spells/basic@hexcasting:blink
+Make Note||patterns/spells/basic@hexcasting:beep
+test pattern|https://media1.tenor.com/images/789d8bc4e8c417e4ef4113d134fd3bc1/tenor.gif?itemid=25636082|patterns
