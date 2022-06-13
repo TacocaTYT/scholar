@@ -11,12 +11,13 @@ with open('patterns.txt', 'r') as file:
     pattern_catalogue = file.read()
     dummy = pattern_catalogue.replace('\n', '|').split('|')
     for i in range(len(dummy)):
-        if i%3 == 2:
-            client.web_link.append(dummy[i])
-        elif i%3 == 1:
-            client.gif_list.append(dummy[i])
-        else:
-            client.pattern_index.append(dummy[i])
+        match i%3:
+            case 2:
+                client.web_link.append(dummy[i])
+            case 1:
+                client.gif_list.append(dummy[i])
+            case _:
+                client.pattern_index.append(dummy[i])
 
 @client.event
 async def on_ready():
