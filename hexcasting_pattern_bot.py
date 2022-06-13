@@ -10,9 +10,9 @@ client.web_link = []
 with open('patterns.txt', 'r') as file:
     for line in file:
         A, B, C = line.split('|')
-        client.web_link.append(A)
+        client.web_link.append(C)
         client.gif_list.append(B)
-        client.pattern_index.append(C.strip())
+        client.pattern_index.append(A.strip())
 
 @client.event
 async def on_ready():
