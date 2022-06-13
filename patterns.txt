@@ -1,2 +1,81 @@
-gemini decomposition|https://media1.tenor.com/images/7f80567f59ed72ba7f7f72c20987f33e/tenor.gif?itemid=25598482
-test pattern|https://media1.tenor.com/images/789d8bc4e8c417e4ef4113d134fd3bc1/tenor.gif?itemid=25636082
+Mind's Reflection||https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:get_caster
+Compass' Purification||https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:get_entity_pos
+Alidade's Purification||https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:get_entity_look
+Stadiometer's Purification||https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:get_entity_height
+Pace Purification||https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:get_entity_velocity
+Reveal||https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:print
+Archer's Distillation||https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:raycast
+Architect's Distillation||https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:raycast/axis
+Scout's Distillation||https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:raycast/entity
+Numerical Reflection||https://gamma-delta.github.io/HexMod/#patterns/numbers@Numbers
+Additive Distillation||https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:add
+Subtractive Distillation||https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:sub
+Multiplicative Distillation||https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:mul_dot
+Division Distillation||https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:div_cross
+Length Purification||https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:abs_len
+Power Distillation||https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:pow_proj
+Floor Purification||https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:floor
+Ceiling Purification||https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:ceil
+Vector Exaltation||https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:construct_vec
+Vector Disintegration||https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:deconstruct_vec
+Axial Purification||https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:coerce_axial
+Entropy Reflection||https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:random
+Jester's Gambit||https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:swap
+Fisherman's Gambit||https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:fisherman
+Flock's Reflection||https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:stack_len
+Flock's Gambit||https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:last_n_list
+Flock's Disintegration||https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:splat
+Gemini Decomposition||https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:duplicate
+Gemini's Gambit||https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:duplicate_n
+Bookkeeper's Gambits||https://gamma-delta.github.io/HexMod/#patterns/stackmanip@Numbers
+Swindler's Gambit||https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:swizzle
+Maximus Distillation||https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:greater
+Minimus Distillation||https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:less
+Maximus Distillation II||https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:greater_eq
+Minimus Distillation II||https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:less_eq
+Equality Distillation||https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:equals
+Inequality Distillation||https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:not_equals
+Negation Purification||https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:not
+Identity Purification||https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:identity
+Disjunction Distillation||https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:or
+Conjunction Distillation||https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:and
+Exclusion Distillation||https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:xor
+Entity Purification||https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:get_entity
+Entity Purification Animal||https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:get_entity/animal
+Entity Purification Monster||https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:get_entity/monster
+Entity Purification Item||https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:get_entity/item
+Entity Purification Player||https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:get_entity/player
+Entity Purification Living||https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:get_entity/living
+Selection Distillation||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:index
+Selection Exaltation||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:slice
+Integration Distillation||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:append
+Combination Distillation||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:concat
+Vacant Reflection||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:empty_list
+Single's Purification||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:singleton
+Abacus Purification||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:list_size
+Retrograde Purification||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:reverse_list
+Locator's Distillation||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:index_of
+Excisor's Distillation||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:list_remove
+Surgeon's Exaltation||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:modify_in_place
+Speaker's Distillation||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:construct
+Speaker's Decomposition||https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:deconstruct
+Consideration||https://gamma-delta.github.io/HexMod/#patterns/patterns_as_iotas@hexcasting:escape
+Introspection||https://gamma-delta.github.io/HexMod/#patterns/patterns_as_iotas@hexcasting:open_paren
+Retrospection||https://gamma-delta.github.io/HexMod/#patterns/patterns_as_iotas@hexcasting:close_paren
+Scribe's Reflection||https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:read
+Auditor's Reflection||https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:readable
+Scribe's Purification||https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:read/entity
+Auditor's Purification||https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:readable/entity
+Scribe's Gambit||https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:write
+Auditor's Purification II||https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:writable
+Huginn's Gambit||https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:write/local
+Muninn's Reflection||https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:read/local
+Sine Purification||https://gamma-delta.github.io/HexMod/#patterns/advanced_math@hexcasting:sin
+Cosine Purification||https://gamma-delta.github.io/HexMod/#patterns/advanced_math@hexcasting:cos
+Tangent Purification||https://gamma-delta.github.io/HexMod/#patterns/advanced_math@hexcasting:tan
+Inverse Sine Purification||https://gamma-delta.github.io/HexMod/#patterns/advanced_math@hexcasting:arcsin
+Inverse Cosine Purification||https://gamma-delta.github.io/HexMod/#patterns/advanced_math@hexcasting:arccos
+Inverse Tangent Purification||https://gamma-delta.github.io/HexMod/#patterns/advanced_math@hexcasting:arctan
+Logarithmic Distillation||https://gamma-delta.github.io/HexMod/#patterns/advanced_math@hexcasting:logarithm
+
+test pattern|https://media1.tenor.com/images/789d8bc4e8c417e4ef4113d134fd3bc1/tenor.gif?itemid=25636082|https://www.youtube.com/watch?v=dQw4w9WgXcQ
