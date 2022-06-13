@@ -8,15 +8,11 @@ client.gif_list = []
 client.web_link = []
 
 with open('patterns.txt', 'r') as file:
-    pattern_catalogue = file.read()
-    dummy = pattern_catalogue.replace('\n', '|').split('|')
-    for i in range(len(dummy)):
-        if i%3 == 2:
-            client.web_link.append(dummy[i])
-        elif i%3 == 1:
-            client.gif_list.append(dummy[i])
-        else:
-            client.pattern_index.append(dummy[i])
+    for line in file:
+        A, B, C = line.split('|')
+        client.web_link.append(A)
+        client.gif_list.append(B)
+        client.pattern_index.append(C.strip())
 
 @client.event
 async def on_ready():
@@ -54,5 +50,5 @@ async def guide(ctx):
 async def guide(ctx, topic : str):
     assemble = disnake.Embed(color = disnake.Colour.purple(), title=f'Online Hexcasting Guide: {topic}', url=f'https://gamma-delta.github.io/HexMod/#patterns/{topic.lower().replace(" ", "_")}')
     await ctx.send(embed=assemble)
-
-client.run()
+token = input('bot token to connect under?\n')
+client.run(token)
