@@ -5,8 +5,9 @@ from disnake.ext import commands
 import sys
 import argparse
 parser = argparse.ArgumentParser(description="A Discord Bot designed to assist Hexcasters in drawing or explaining patterns.")
-parser.add_argument("-t", "--token", help="Supply a token for a bot account to connect under.", default="", type=str)
-token = parser.parse_args()
+parser.add_argument("--token", "-t", help="Supply a token for a bot account to connect under.", default="", type=str)
+args = parser.parse_args()
+token = args.token
 if token == "": sys.exit("No Token, Cannot Connect")
 #-----------------------------------------
 
