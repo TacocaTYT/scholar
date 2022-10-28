@@ -1,6 +1,14 @@
 import disnake
 from disnake.ext import commands
 
+#------[COMMAND LINE ARGUMENT SETUP]------
+import sys
+import argparse
+parser = argparse.ArgumentParser(description="A Discord Bot designed to assist Hexcasters in drawing or explaining patterns.")
+parser.add_argument("-t", "--token", help="Supply a token for a bot account to connect under.", default="")
+token = parser.parse_args()
+if token == "": sys.exit("No Token, Cannot Connect")
+#-----------------------------------------
 
 client = commands.Bot(command_prefix="b|", test_guilds=[951923779859271711, 936370934292549712], intents=disnake.Intents.default())
 client.pattern_index = []
@@ -50,5 +58,5 @@ async def guide(ctx):
 async def guide(ctx, topic : str):
     assemble = disnake.Embed(color = disnake.Colour.purple(), title=f'Online Hexcasting Guide: {topic}', url=f'https://gamma-delta.github.io/HexMod/#patterns/{topic.lower().replace(" ", "_")}')
     await ctx.send(embed=assemble)
-token = input('bot token to connect under?\n')
+#token = input('bot token to connect under?\n')
 client.run(token)
