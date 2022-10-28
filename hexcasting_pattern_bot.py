@@ -4,7 +4,7 @@ from disnake.ext import commands
 #------[COMMAND LINE ARGUMENT SETUP]------
 import sys
 import argparse
-parser = argparse.ArgumentParser(description="A Discord Bot designed to assist Hexcasters in drawing or explaining patterns.")
+parser = argparse.ArgumentParser(description="A Discord Bot designed made by Katte.")
 parser.add_argument("--token", "-t", help="Supply a token for a bot account to connect under.", default="", type=str)
 args = parser.parse_args()
 token = args.token
