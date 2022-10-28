@@ -15,7 +15,7 @@ client.pattern_index = []
 client.gif_list = []
 client.web_link = []
 
-with open('/patterns.txt', 'r') as file:
+with open('patterns.txt', 'r') as file:
     for line in file:
         A, B, C = line.split('|')
         client.web_link.append(C)
