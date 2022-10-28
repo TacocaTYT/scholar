@@ -59,5 +59,4 @@ async def guide(ctx):
 async def guide(ctx, topic : str):
     assemble = disnake.Embed(color = disnake.Colour.purple(), title=f'Online Hexcasting Guide: {topic}', url=f'https://gamma-delta.github.io/HexMod/#patterns/{topic.lower().replace(" ", "_")}')
     await ctx.send(embed=assemble)
-#token = input('bot token to connect under?\n')
 client.run(token)
