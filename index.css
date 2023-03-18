@@ -1,0 +1,25 @@
+.button-container {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #ccc;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .button-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .button-container p {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
